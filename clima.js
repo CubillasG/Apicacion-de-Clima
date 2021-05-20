@@ -15,7 +15,6 @@ const setWeatherData = data =>{
         locacion: data.name,
         descripcion: data.weather[0].main,
         humedad: data.main.humidity,
-        
         temperatura: data.main.temp,
         date: getDate(),
     }
